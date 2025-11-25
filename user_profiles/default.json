@@ -1,0 +1,21 @@
+{
+  "preferences": {
+    "communication_style": "professional",
+    "topics_of_interest": [],
+    "interaction_frequency": "daily"
+  },
+  "interaction_history": {
+    "total_interactions": 26,
+    "first_interaction": "2025-11-25T06:43:39.787324",
+    "last_interaction": "2025-11-25T06:48:56.849225"
+  },
+  "learned_context": {
+    "time": [
+      "3:30 PM"
+    ],
+    "number": [
+      "3",
+      "30"
+    ]
+  }
+}

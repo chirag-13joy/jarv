@@ -1,0 +1,198 @@
+2025-11-25 06:37:55,788 - JarvisAI - INFO - Processing text: Hello Jarvis, can you tell me what time it is?
+2025-11-25 06:37:55,791 - JarvisAI - INFO - NLP processing result: {'original_text': 'Hello Jarvis, can you tell me what time it is?', 'intent': 'greeting', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:38:02,979 - JarvisAI - INFO - Starting Jarvis AI system...
+2025-11-25 06:38:02,980 - JarvisAI - INFO - Jarvis AI system stopped.
+2025-11-25 06:39:08,390 - JarvisAI - INFO - Processing text: Hello Jarvis, how are you today?
+2025-11-25 06:39:08,393 - JarvisAI - INFO - NLP processing result: {'original_text': 'Hello Jarvis, how are you today?', 'intent': 'greeting', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:39:08,393 - JarvisAI - INFO - Processing text: What is the weather like tomorrow?
+2025-11-25 06:39:08,404 - JarvisAI - INFO - NLP processing result: {'original_text': 'What is the weather like tomorrow?', 'intent': 'question', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:39:08,405 - JarvisAI - INFO - Processing text: Set a reminder for 3:30 PM
+2025-11-25 06:39:08,406 - JarvisAI - INFO - NLP processing result: {'original_text': 'Set a reminder for 3:30 PM', 'intent': 'command', 'entities': {'time': ['3:30 PM'], 'number': ['3', '30']}, 'sentiment': 'neutral'}
+2025-11-25 06:39:08,407 - JarvisAI - INFO - Processing text: Open the garage door
+2025-11-25 06:39:08,407 - JarvisAI - INFO - NLP processing result: {'original_text': 'Open the garage door', 'intent': 'command', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:39:08,408 - JarvisAI - INFO - Processing text: Tell me about artificial intelligence
+2025-11-25 06:39:08,409 - JarvisAI - INFO - NLP processing result: {'original_text': 'Tell me about artificial intelligence', 'intent': 'information', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:39:08,409 - JarvisAI - INFO - Processing text: This is amazing and wonderful!
+2025-11-25 06:39:08,410 - JarvisAI - INFO - NLP processing result: {'original_text': 'This is amazing and wonderful!', 'intent': 'statement', 'entities': {}, 'sentiment': 'positive'}
+2025-11-25 06:39:08,411 - JarvisAI - INFO - Processing text: This is terrible and awful!
+2025-11-25 06:39:08,412 - JarvisAI - INFO - NLP processing result: {'original_text': 'This is terrible and awful!', 'intent': 'statement', 'entities': {}, 'sentiment': 'negative'}
+2025-11-25 06:39:08,412 - JarvisAI - INFO - Processing text: The sky is blue.
+2025-11-25 06:39:08,413 - JarvisAI - INFO - NLP processing result: {'original_text': 'The sky is blue.', 'intent': 'statement', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:41:14,832 - JarvisAI - INFO - Processing text: Hello Jarvis, how are you today?
+2025-11-25 06:41:14,836 - JarvisAI - INFO - NLP processing result: {'original_text': 'Hello Jarvis, how are you today?', 'intent': 'greeting', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:41:14,837 - JarvisAI - INFO - Processing text: What is the weather like tomorrow?
+2025-11-25 06:41:14,838 - JarvisAI - INFO - NLP processing result: {'original_text': 'What is the weather like tomorrow?', 'intent': 'question', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:41:14,838 - JarvisAI - INFO - Processing text: Set a reminder for 3:30 PM
+2025-11-25 06:41:14,840 - JarvisAI - INFO - NLP processing result: {'original_text': 'Set a reminder for 3:30 PM', 'intent': 'command', 'entities': {'time': ['3:30 PM'], 'number': ['3', '30']}, 'sentiment': 'neutral'}
+2025-11-25 06:41:14,840 - JarvisAI - INFO - Processing text: Open the garage door
+2025-11-25 06:41:14,841 - JarvisAI - INFO - NLP processing result: {'original_text': 'Open the garage door', 'intent': 'command', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:41:14,841 - JarvisAI - INFO - Processing text: Tell me about artificial intelligence
+2025-11-25 06:41:14,842 - JarvisAI - INFO - NLP processing result: {'original_text': 'Tell me about artificial intelligence', 'intent': 'information', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:41:14,843 - JarvisAI - INFO - Processing text: This is amazing and wonderful!
+2025-11-25 06:41:14,844 - JarvisAI - INFO - NLP processing result: {'original_text': 'This is amazing and wonderful!', 'intent': 'statement', 'entities': {}, 'sentiment': 'positive'}
+2025-11-25 06:41:14,845 - JarvisAI - INFO - Processing text: This is terrible and awful!
+2025-11-25 06:41:14,845 - JarvisAI - INFO - NLP processing result: {'original_text': 'This is terrible and awful!', 'intent': 'statement', 'entities': {}, 'sentiment': 'negative'}
+2025-11-25 06:41:14,846 - JarvisAI - INFO - Processing text: The sky is blue.
+2025-11-25 06:41:14,846 - JarvisAI - INFO - NLP processing result: {'original_text': 'The sky is blue.', 'intent': 'statement', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:41:14,847 - JarvisAI - INFO - Processing text: Hello Jarvis, how are you today?
+2025-11-25 06:41:14,848 - JarvisAI - INFO - NLP processing result: {'original_text': 'Hello Jarvis, how are you today?', 'intent': 'greeting', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:41:14,855 - JarvisAI - INFO - Processing text: What is the weather like tomorrow?
+2025-11-25 06:41:14,858 - JarvisAI - INFO - NLP processing result: {'original_text': 'What is the weather like tomorrow?', 'intent': 'question', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:41:14,876 - JarvisAI - INFO - Processing text: Set a reminder for 3:30 PM
+2025-11-25 06:41:14,877 - JarvisAI - INFO - NLP processing result: {'original_text': 'Set a reminder for 3:30 PM', 'intent': 'command', 'entities': {'time': ['3:30 PM'], 'number': ['3', '30']}, 'sentiment': 'neutral'}
+2025-11-25 06:41:14,909 - JarvisAI - INFO - Processing text: Open the garage door
+2025-11-25 06:41:14,910 - JarvisAI - INFO - NLP processing result: {'original_text': 'Open the garage door', 'intent': 'command', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:42:45,172 - JarvisAI - ERROR - Required voice recognition libraries not installed
+2025-11-25 06:42:45,173 - JarvisAI - INFO - Please install speechrecognition: pip install SpeechRecognition
+2025-11-25 06:42:45,314 - JarvisAI - ERROR - Required speech synthesis libraries not installed
+2025-11-25 06:42:45,315 - JarvisAI - INFO - Please install pyttsx3: pip install pyttsx3
+2025-11-25 06:42:45,321 - JarvisAI - ERROR - Required voice recognition libraries not installed
+2025-11-25 06:42:45,326 - JarvisAI - INFO - Please install speechrecognition: pip install SpeechRecognition
+2025-11-25 06:42:45,329 - JarvisAI - ERROR - Required speech synthesis libraries not installed
+2025-11-25 06:42:45,337 - JarvisAI - INFO - Please install pyttsx3: pip install pyttsx3
+2025-11-25 06:43:39,724 - JarvisAI - ERROR - Required voice recognition libraries not installed
+2025-11-25 06:43:39,725 - JarvisAI - INFO - Please install speechrecognition: pip install SpeechRecognition
+2025-11-25 06:43:39,760 - JarvisAI - ERROR - Required speech synthesis libraries not installed
+2025-11-25 06:43:39,761 - JarvisAI - INFO - Please install pyttsx3: pip install pyttsx3
+2025-11-25 06:43:39,762 - JarvisAI - INFO - Processing text: Hello Jarvis
+2025-11-25 06:43:39,769 - JarvisAI - INFO - NLP processing result: {'original_text': 'Hello Jarvis', 'intent': 'greeting', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:43:39,770 - JarvisAI - INFO - Processing text: What is the weather like today?
+2025-11-25 06:43:39,771 - JarvisAI - INFO - NLP processing result: {'original_text': 'What is the weather like today?', 'intent': 'question', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:43:39,772 - JarvisAI - INFO - Processing text: Set a reminder for 3:30 PM
+2025-11-25 06:43:39,774 - JarvisAI - INFO - NLP processing result: {'original_text': 'Set a reminder for 3:30 PM', 'intent': 'command', 'entities': {'time': ['3:30 PM'], 'number': ['3', '30']}, 'sentiment': 'neutral'}
+2025-11-25 06:43:39,776 - JarvisAI - INFO - Processing text: Tell me about artificial intelligence
+2025-11-25 06:43:39,777 - JarvisAI - INFO - NLP processing result: {'original_text': 'Tell me about artificial intelligence', 'intent': 'information', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:43:39,778 - JarvisAI - INFO - Processing text: This is amazing!
+2025-11-25 06:43:39,780 - JarvisAI - INFO - NLP processing result: {'original_text': 'This is amazing!', 'intent': 'statement', 'entities': {}, 'sentiment': 'positive'}
+2025-11-25 06:43:39,782 - JarvisAI - INFO - Processing text: This is terrible!
+2025-11-25 06:43:39,784 - JarvisAI - INFO - NLP processing result: {'original_text': 'This is terrible!', 'intent': 'statement', 'entities': {}, 'sentiment': 'negative'}
+2025-11-25 06:43:39,785 - JarvisAI - INFO - Processing text: Hello Jarvis
+2025-11-25 06:43:39,786 - JarvisAI - INFO - NLP processing result: {'original_text': 'Hello Jarvis', 'intent': 'greeting', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:43:39,802 - JarvisAI - INFO - Processing text: What time is it?
+2025-11-25 06:43:39,803 - JarvisAI - INFO - NLP processing result: {'original_text': 'What time is it?', 'intent': 'question', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:43:39,828 - JarvisAI - INFO - Processing text: Open the garage door
+2025-11-25 06:43:39,830 - JarvisAI - INFO - NLP processing result: {'original_text': 'Open the garage door', 'intent': 'command', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:43:39,844 - JarvisAI - INFO - Processing text: Tell me a joke
+2025-11-25 06:43:39,845 - JarvisAI - INFO - NLP processing result: {'original_text': 'Tell me a joke', 'intent': 'statement', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:43:56,247 - JarvisAI - ERROR - Required voice recognition libraries not installed
+2025-11-25 06:43:56,248 - JarvisAI - INFO - Please install speechrecognition: pip install SpeechRecognition
+2025-11-25 06:43:56,267 - JarvisAI - ERROR - Required speech synthesis libraries not installed
+2025-11-25 06:43:56,268 - JarvisAI - INFO - Please install pyttsx3: pip install pyttsx3
+2025-11-25 06:43:56,269 - JarvisAI - INFO - Processing text: Hello Jarvis, how are you today?
+2025-11-25 06:43:56,271 - JarvisAI - INFO - NLP processing result: {'original_text': 'Hello Jarvis, how are you today?', 'intent': 'greeting', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:43:56,285 - JarvisAI - INFO - Processing text: What is the weather forecast for tomorrow?
+2025-11-25 06:43:56,287 - JarvisAI - INFO - NLP processing result: {'original_text': 'What is the weather forecast for tomorrow?', 'intent': 'question', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:43:56,322 - JarvisAI - INFO - Processing text: Set a reminder for my meeting at 3:30 PM
+2025-11-25 06:43:56,324 - JarvisAI - INFO - NLP processing result: {'original_text': 'Set a reminder for my meeting at 3:30 PM', 'intent': 'command', 'entities': {'time': ['3:30 PM'], 'number': ['3', '30']}, 'sentiment': 'neutral'}
+2025-11-25 06:43:56,369 - JarvisAI - INFO - Processing text: Tell me about the history of artificial intelligence
+2025-11-25 06:43:56,370 - JarvisAI - INFO - NLP processing result: {'original_text': 'Tell me about the history of artificial intelligence', 'intent': 'information', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:44:07,065 - JarvisAI - ERROR - Required voice recognition libraries not installed
+2025-11-25 06:44:07,066 - JarvisAI - INFO - Please install speechrecognition: pip install SpeechRecognition
+2025-11-25 06:44:07,085 - JarvisAI - ERROR - Required speech synthesis libraries not installed
+2025-11-25 06:44:07,086 - JarvisAI - INFO - Please install pyttsx3: pip install pyttsx3
+2025-11-25 06:44:07,086 - JarvisAI - INFO - Processing text: Hello Jarvis, how are you today?
+2025-11-25 06:44:07,089 - JarvisAI - INFO - NLP processing result: {'original_text': 'Hello Jarvis, how are you today?', 'intent': 'greeting', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:44:07,099 - JarvisAI - INFO - Processing text: What is the weather forecast for tomorrow?
+2025-11-25 06:44:07,100 - JarvisAI - INFO - NLP processing result: {'original_text': 'What is the weather forecast for tomorrow?', 'intent': 'question', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:44:07,133 - JarvisAI - INFO - Processing text: Set a reminder for my meeting at 3:30 PM
+2025-11-25 06:44:07,135 - JarvisAI - INFO - NLP processing result: {'original_text': 'Set a reminder for my meeting at 3:30 PM', 'intent': 'command', 'entities': {'time': ['3:30 PM'], 'number': ['3', '30']}, 'sentiment': 'neutral'}
+2025-11-25 06:44:07,155 - JarvisAI - INFO - Processing text: Tell me about the history of artificial intelligence
+2025-11-25 06:44:07,156 - JarvisAI - INFO - NLP processing result: {'original_text': 'Tell me about the history of artificial intelligence', 'intent': 'information', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:47:50,850 - JarvisAI - INFO - Processing text: नमस्ते जार्विस
+2025-11-25 06:47:50,860 - JarvisAI - INFO - NLP processing result: {'original_text': 'नमस्ते जार्विस', 'language': 'hindi', 'intent': 'statement', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:47:50,861 - JarvisAI - INFO - Processing text: आप कैसे हैं?
+2025-11-25 06:47:50,862 - JarvisAI - INFO - NLP processing result: {'original_text': 'आप कैसे हैं?', 'language': 'hindi', 'intent': 'statement', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:48:13,314 - JarvisAI - INFO - Processing text: Hello Jarvis, how are you today?
+2025-11-25 06:48:13,316 - JarvisAI - INFO - NLP processing result: {'original_text': 'Hello Jarvis, how are you today?', 'language': 'english', 'intent': 'greeting', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:48:13,317 - JarvisAI - INFO - Processing text: What is the weather like tomorrow?
+2025-11-25 06:48:13,319 - JarvisAI - INFO - NLP processing result: {'original_text': 'What is the weather like tomorrow?', 'language': 'english', 'intent': 'question', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:48:13,322 - JarvisAI - INFO - Processing text: Set a reminder for 3:30 PM
+2025-11-25 06:48:13,323 - JarvisAI - INFO - NLP processing result: {'original_text': 'Set a reminder for 3:30 PM', 'language': 'english', 'intent': 'command', 'entities': {'time': ['3:30 PM'], 'number': ['3', '30']}, 'sentiment': 'neutral'}
+2025-11-25 06:48:13,324 - JarvisAI - INFO - Processing text: Open the garage door
+2025-11-25 06:48:13,325 - JarvisAI - INFO - NLP processing result: {'original_text': 'Open the garage door', 'language': 'english', 'intent': 'command', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:48:13,325 - JarvisAI - INFO - Processing text: Tell me about artificial intelligence
+2025-11-25 06:48:13,326 - JarvisAI - INFO - NLP processing result: {'original_text': 'Tell me about artificial intelligence', 'language': 'english', 'intent': 'information', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:48:13,327 - JarvisAI - INFO - Processing text: This is amazing and wonderful!
+2025-11-25 06:48:13,328 - JarvisAI - INFO - NLP processing result: {'original_text': 'This is amazing and wonderful!', 'language': 'english', 'intent': 'statement', 'entities': {}, 'sentiment': 'positive'}
+2025-11-25 06:48:13,328 - JarvisAI - INFO - Processing text: This is terrible and awful!
+2025-11-25 06:48:13,329 - JarvisAI - INFO - NLP processing result: {'original_text': 'This is terrible and awful!', 'language': 'english', 'intent': 'statement', 'entities': {}, 'sentiment': 'negative'}
+2025-11-25 06:48:13,329 - JarvisAI - INFO - Processing text: The sky is blue.
+2025-11-25 06:48:13,330 - JarvisAI - INFO - NLP processing result: {'original_text': 'The sky is blue.', 'language': 'english', 'intent': 'statement', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:48:13,330 - JarvisAI - INFO - Processing text: Hello Jarvis, how are you today?
+2025-11-25 06:48:13,331 - JarvisAI - INFO - NLP processing result: {'original_text': 'Hello Jarvis, how are you today?', 'language': 'english', 'intent': 'greeting', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:48:13,336 - JarvisAI - INFO - Processing text: What is the weather like tomorrow?
+2025-11-25 06:48:13,337 - JarvisAI - INFO - NLP processing result: {'original_text': 'What is the weather like tomorrow?', 'language': 'english', 'intent': 'question', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:48:13,357 - JarvisAI - INFO - Processing text: Set a reminder for 3:30 PM
+2025-11-25 06:48:13,358 - JarvisAI - INFO - NLP processing result: {'original_text': 'Set a reminder for 3:30 PM', 'language': 'english', 'intent': 'command', 'entities': {'time': ['3:30 PM'], 'number': ['3', '30']}, 'sentiment': 'neutral'}
+2025-11-25 06:48:13,380 - JarvisAI - INFO - Processing text: Open the garage door
+2025-11-25 06:48:13,381 - JarvisAI - INFO - NLP processing result: {'original_text': 'Open the garage door', 'language': 'english', 'intent': 'command', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:48:29,306 - JarvisAI - INFO - Processing text: नमस्ते जार्विस, आप कैसे हैं?
+2025-11-25 06:48:29,313 - JarvisAI - INFO - NLP processing result: {'original_text': 'नमस्ते जार्विस, आप कैसे हैं?', 'language': 'hindi', 'intent': 'statement', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:48:29,313 - JarvisAI - INFO - Processing text: आप मुझे कृत्रिम बुद्धिमत्ता के बारे में बता सकते हैं?
+2025-11-25 06:48:29,314 - JarvisAI - INFO - NLP processing result: {'original_text': 'आप मुझे कृत्रिम बुद्धिमत्ता के बारे में बता सकते हैं?', 'language': 'hindi', 'intent': 'statement', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:48:29,314 - JarvisAI - INFO - Processing text: क्या आप मेरे लिए एक कार्य निर्धारित कर सकते हैं?
+2025-11-25 06:48:29,315 - JarvisAI - INFO - NLP processing result: {'original_text': 'क्या आप मेरे लिए एक कार्य निर्धारित कर सकते हैं?', 'language': 'hindi', 'intent': 'statement', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:48:29,315 - JarvisAI - INFO - Processing text: मुझे बताएं कि आज का मौसम कैसा है
+2025-11-25 06:48:29,316 - JarvisAI - INFO - NLP processing result: {'original_text': 'मुझे बताएं कि आज का मौसम कैसा है', 'language': 'hindi', 'intent': 'statement', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:48:29,317 - JarvisAI - INFO - Processing text: यह बहुत अच्छा है!
+2025-11-25 06:48:29,317 - JarvisAI - INFO - NLP processing result: {'original_text': 'यह बहुत अच्छा है!', 'language': 'hindi', 'intent': 'statement', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:48:29,318 - JarvisAI - INFO - Processing text: यह बहुत बुरा है!
+2025-11-25 06:48:29,319 - JarvisAI - INFO - NLP processing result: {'original_text': 'यह बहुत बुरा है!', 'language': 'hindi', 'intent': 'statement', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:48:29,319 - JarvisAI - INFO - Processing text: नमस्ते जार्विस, आप कैसे हैं?
+2025-11-25 06:48:29,320 - JarvisAI - INFO - NLP processing result: {'original_text': 'नमस्ते जार्विस, आप कैसे हैं?', 'language': 'hindi', 'intent': 'statement', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:48:29,325 - JarvisAI - INFO - Processing text: आप मुझे कृत्रिम बुद्धिमत्ता के बारे में बता सकते हैं?
+2025-11-25 06:48:29,326 - JarvisAI - INFO - NLP processing result: {'original_text': 'आप मुझे कृत्रिम बुद्धिमत्ता के बारे में बता सकते हैं?', 'language': 'hindi', 'intent': 'statement', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:48:29,344 - JarvisAI - INFO - Processing text: क्या आप मेरे लिए एक कार्य निर्धारित कर सकते हैं?
+2025-11-25 06:48:29,345 - JarvisAI - INFO - NLP processing result: {'original_text': 'क्या आप मेरे लिए एक कार्य निर्धारित कर सकते हैं?', 'language': 'hindi', 'intent': 'statement', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:48:29,362 - JarvisAI - INFO - Processing text: मुझे बताएं कि आज का मौसम कैसा है
+2025-11-25 06:48:29,363 - JarvisAI - INFO - NLP processing result: {'original_text': 'मुझे बताएं कि आज का मौसम कैसा है', 'language': 'hindi', 'intent': 'statement', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:48:53,512 - JarvisAI - INFO - Processing text: Hello Jarvis, can you tell me what time it is?
+2025-11-25 06:48:53,516 - JarvisAI - INFO - NLP processing result: {'original_text': 'Hello Jarvis, can you tell me what time it is?', 'language': 'english', 'intent': 'greeting', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:48:54,566 - JarvisAI - ERROR - Required voice recognition libraries not installed
+2025-11-25 06:48:54,571 - JarvisAI - INFO - Please install speechrecognition: pip install SpeechRecognition
+2025-11-25 06:48:54,617 - JarvisAI - ERROR - Required speech synthesis libraries not installed
+2025-11-25 06:48:54,618 - JarvisAI - INFO - Please install pyttsx3: pip install pyttsx3
+2025-11-25 06:48:54,624 - JarvisAI - ERROR - Required voice recognition libraries not installed
+2025-11-25 06:48:54,624 - JarvisAI - INFO - Please install speechrecognition: pip install SpeechRecognition
+2025-11-25 06:48:54,628 - JarvisAI - ERROR - Required speech synthesis libraries not installed
+2025-11-25 06:48:54,630 - JarvisAI - INFO - Please install pyttsx3: pip install pyttsx3
+2025-11-25 06:48:55,228 - JarvisAI - ERROR - Required voice recognition libraries not installed
+2025-11-25 06:48:55,231 - JarvisAI - INFO - Please install speechrecognition: pip install SpeechRecognition
+2025-11-25 06:48:55,289 - JarvisAI - ERROR - Required speech synthesis libraries not installed
+2025-11-25 06:48:55,290 - JarvisAI - INFO - Please install pyttsx3: pip install pyttsx3
+2025-11-25 06:48:55,290 - JarvisAI - INFO - Processing text: Hello Jarvis
+2025-11-25 06:48:55,294 - JarvisAI - INFO - NLP processing result: {'original_text': 'Hello Jarvis', 'language': 'english', 'intent': 'greeting', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:48:55,294 - JarvisAI - INFO - Processing text: What is the weather like today?
+2025-11-25 06:48:55,297 - JarvisAI - INFO - NLP processing result: {'original_text': 'What is the weather like today?', 'language': 'english', 'intent': 'question', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:48:55,297 - JarvisAI - INFO - Processing text: Set a reminder for 3:30 PM
+2025-11-25 06:48:55,305 - JarvisAI - INFO - NLP processing result: {'original_text': 'Set a reminder for 3:30 PM', 'language': 'english', 'intent': 'command', 'entities': {'time': ['3:30 PM'], 'number': ['3', '30']}, 'sentiment': 'neutral'}
+2025-11-25 06:48:55,308 - JarvisAI - INFO - Processing text: Tell me about artificial intelligence
+2025-11-25 06:48:55,310 - JarvisAI - INFO - NLP processing result: {'original_text': 'Tell me about artificial intelligence', 'language': 'english', 'intent': 'information', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:48:55,310 - JarvisAI - INFO - Processing text: This is amazing!
+2025-11-25 06:48:55,312 - JarvisAI - INFO - NLP processing result: {'original_text': 'This is amazing!', 'language': 'english', 'intent': 'statement', 'entities': {}, 'sentiment': 'positive'}
+2025-11-25 06:48:55,313 - JarvisAI - INFO - Processing text: This is terrible!
+2025-11-25 06:48:55,315 - JarvisAI - INFO - NLP processing result: {'original_text': 'This is terrible!', 'language': 'english', 'intent': 'statement', 'entities': {}, 'sentiment': 'negative'}
+2025-11-25 06:48:55,315 - JarvisAI - INFO - Processing text: Hello Jarvis
+2025-11-25 06:48:55,317 - JarvisAI - INFO - NLP processing result: {'original_text': 'Hello Jarvis', 'language': 'english', 'intent': 'greeting', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:48:55,335 - JarvisAI - INFO - Processing text: What time is it?
+2025-11-25 06:48:55,338 - JarvisAI - INFO - NLP processing result: {'original_text': 'What time is it?', 'language': 'english', 'intent': 'question', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:48:55,363 - JarvisAI - INFO - Processing text: Open the garage door
+2025-11-25 06:48:55,364 - JarvisAI - INFO - NLP processing result: {'original_text': 'Open the garage door', 'language': 'english', 'intent': 'command', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:48:55,405 - JarvisAI - INFO - Processing text: Tell me a joke
+2025-11-25 06:48:55,417 - JarvisAI - INFO - NLP processing result: {'original_text': 'Tell me a joke', 'language': 'english', 'intent': 'statement', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:48:56,068 - JarvisAI - ERROR - Required voice recognition libraries not installed
+2025-11-25 06:48:56,069 - JarvisAI - INFO - Please install speechrecognition: pip install SpeechRecognition
+2025-11-25 06:48:56,109 - JarvisAI - ERROR - Required speech synthesis libraries not installed
+2025-11-25 06:48:56,110 - JarvisAI - INFO - Please install pyttsx3: pip install pyttsx3
+2025-11-25 06:48:56,115 - JarvisAI - INFO - Processing text: Hello Jarvis, how are you today?
+2025-11-25 06:48:56,130 - JarvisAI - INFO - NLP processing result: {'original_text': 'Hello Jarvis, how are you today?', 'language': 'english', 'intent': 'greeting', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:48:56,166 - JarvisAI - INFO - Processing text: What is the weather forecast for tomorrow?
+2025-11-25 06:48:56,168 - JarvisAI - INFO - NLP processing result: {'original_text': 'What is the weather forecast for tomorrow?', 'language': 'english', 'intent': 'question', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:48:56,195 - JarvisAI - INFO - Processing text: Set a reminder for my meeting at 3:30 PM
+2025-11-25 06:48:56,203 - JarvisAI - INFO - NLP processing result: {'original_text': 'Set a reminder for my meeting at 3:30 PM', 'language': 'english', 'intent': 'command', 'entities': {'time': ['3:30 PM'], 'number': ['3', '30']}, 'sentiment': 'neutral'}
+2025-11-25 06:48:56,235 - JarvisAI - INFO - Processing text: Tell me about the history of artificial intelligence
+2025-11-25 06:48:56,236 - JarvisAI - INFO - NLP processing result: {'original_text': 'Tell me about the history of artificial intelligence', 'language': 'english', 'intent': 'information', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:48:56,837 - JarvisAI - INFO - Processing text: नमस्ते जार्विस
+2025-11-25 06:48:56,845 - JarvisAI - INFO - NLP processing result: {'original_text': 'नमस्ते जार्विस', 'language': 'hindi', 'intent': 'statement', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 06:48:56,846 - JarvisAI - INFO - Processing text: आप कैसे हैं?
+2025-11-25 06:48:56,848 - JarvisAI - INFO - NLP processing result: {'original_text': 'आप कैसे हैं?', 'language': 'hindi', 'intent': 'statement', 'entities': {}, 'sentiment': 'neutral'}
