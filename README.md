@@ -33,11 +33,24 @@ jarvis_ai/
 ## Getting Started
 
 1. Clone the repository
-2. Install dependencies:
+2. Create a virtual environment:
+   ```bash
+   python3 -m venv jarvis_env
+   source jarvis_env/bin/activate  # On Windows: jarvis_env\Scripts\activate
+   ```
+3. Install Python dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-3. Run the system:
+4. Install system dependencies for voice features (Ubuntu/Debian):
+   ```bash
+   sudo apt install portaudio19-dev python3-pyaudio espeak
+   ```
+   For other systems:
+   - Windows: PyAudio and eSpeak will be installed via pip
+   - macOS: `brew install portaudio espeak`
+
+5. Run the system:
    ```bash
    python main.py
    ```
@@ -88,6 +101,23 @@ python demo.py
 Run the Hindi demo:
 ```bash
 python demo_hindi.py
+```
+
+## Voice Features
+
+To use the voice recognition and synthesis features, you'll need to install additional system dependencies:
+
+### Ubuntu/Debian:
+```bash
+sudo apt install portaudio19-dev python3-pyaudio espeak
+```
+
+### Windows:
+Voice features should work out of the box with the installed Python packages.
+
+### macOS:
+```bash
+brew install portaudio espeak
 ```
 
 ## Contributing
