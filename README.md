@@ -120,6 +120,17 @@ Voice features should work out of the box with the installed Python packages.
 brew install portaudio espeak
 ```
 
+## Running the Program
+
+Make sure to activate the virtual environment before running the program:
+
+```bash
+source jarvis_env/bin/activate  # On Windows: jarvis_env\Scripts\activate
+python main.py
+```
+
+The program will automatically detect which features are available based on the installed dependencies and provide appropriate feedback.
+
 ## Contributing
 
 This project is still in development. Contributions are welcome!
