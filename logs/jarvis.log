@@ -196,3 +196,15 @@
 2025-11-25 06:48:56,845 - JarvisAI - INFO - NLP processing result: {'original_text': 'नमस्ते जार्विस', 'language': 'hindi', 'intent': 'statement', 'entities': {}, 'sentiment': 'neutral'}
 2025-11-25 06:48:56,846 - JarvisAI - INFO - Processing text: आप कैसे हैं?
 2025-11-25 06:48:56,848 - JarvisAI - INFO - NLP processing result: {'original_text': 'आप कैसे हैं?', 'language': 'hindi', 'intent': 'statement', 'entities': {}, 'sentiment': 'neutral'}
+2025-11-25 08:49:46,751 - JarvisAI - ERROR - Required voice recognition libraries not installed
+2025-11-25 08:49:46,753 - JarvisAI - INFO - Please install speechrecognition: pip install SpeechRecognition
+2025-11-25 08:49:46,800 - JarvisAI - ERROR - Required speech synthesis libraries not installed
+2025-11-25 08:49:46,801 - JarvisAI - INFO - Please install pyttsx3: pip install pyttsx3
+2025-11-25 08:49:46,802 - JarvisAI - INFO - Starting Jarvis AI system...
+2025-11-25 08:49:46,802 - JarvisAI - ERROR - Speech synthesis engine not properly initialized
+2025-11-25 08:49:46,803 - JarvisAI - INFO - Jarvis AI system stopped.
+2025-11-25 08:50:58,175 - JarvisAI - ERROR - Error initializing voice recognition engine: Could not find PyAudio; check installation
+2025-11-25 08:50:58,683 - JarvisAI - ERROR - Error initializing speech synthesis engine: This means you probably do not have eSpeak or eSpeak-ng installed!
+2025-11-25 08:50:58,688 - JarvisAI - INFO - Starting Jarvis AI system...
+2025-11-25 08:50:58,689 - JarvisAI - ERROR - Speech synthesis engine not properly initialized
+2025-11-25 08:50:58,690 - JarvisAI - INFO - Jarvis AI system stopped.

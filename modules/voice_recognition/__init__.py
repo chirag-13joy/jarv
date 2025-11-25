@@ -16,6 +16,7 @@ class VoiceRecognizer:
         self.engine = engine
         self.recognizer = None
         self.microphone = None
+        self.initialized = False
         self._initialize_engine()
         
     def _initialize_engine(self):
@@ -28,6 +29,7 @@ class VoiceRecognizer:
                 # Adjust for ambient noise
                 with self.microphone as source:
                     self.recognizer.adjust_for_ambient_noise(source)
+                self.initialized = True
                 logger.info("SpeechRecognition engine initialized successfully")
             elif self.engine == "vosk":
                 # Vosk implementation would go here
@@ -37,20 +39,23 @@ class VoiceRecognizer:
                 import speech_recognition as sr
                 self.recognizer = sr.Recognizer()
                 self.microphone = sr.Microphone()
+                self.initialized = True
         except ImportError:
             logger.error("Required voice recognition libraries not installed")
             logger.info("Please install speechrecognition: pip install SpeechRecognition")
             self.recognizer = None
             self.microphone = None
+            self.initialized = False
         except Exception as e:
             logger.error(f"Error initializing voice recognition engine: {str(e)}")
             self.recognizer = None
             self.microphone = None
+            self.initialized = False
             
     def listen(self, timeout: Optional[float] = None) -> Optional[str]:
         """Listen for audio input and convert to text."""
         if not self.recognizer or not self.microphone:
-            logger.error("Voice recognition engine not properly initialized")
+            logger.warning("Voice recognition engine not available. Voice input not supported.")
             return None
             
         try:
@@ -67,10 +72,16 @@ class VoiceRecognizer:
             
         except Exception as e:
             logger.error(f"Error during voice recognition: {str(e)}")
+            # Try to reinitialize the engine
+            self._initialize_engine()
             return None
             
     def listen_for_wake_word(self, wake_word: str = "jarvis") -> bool:
         """Listen specifically for the wake word."""
+        if not self.initialized:
+            logger.warning("Voice recognition not available. Cannot listen for wake word.")
+            return False
+            
         try:
             text = self.listen(timeout=2)
             if text and wake_word.lower() in text.lower():

@@ -42,11 +42,13 @@ class JarvisCore:
         
         # Initialize Voice Recognition module
         self.modules['voice_recognition'] = self.voice_recognizer
-        print("Voice recognition module initialized.")
+        voice_status = "available" if getattr(self.voice_recognizer, 'initialized', False) else "not available (missing dependencies)"
+        print(f"Voice recognition module initialized ({voice_status}).")
         
         # Initialize Speech Synthesis module
         self.modules['speech_synthesis'] = self.speech_synthesizer
-        print("Speech synthesis module initialized.")
+        speech_status = "available" if getattr(self.speech_synthesizer, 'initialized', False) else "not available (missing dependencies)"
+        print(f"Speech synthesis module initialized ({speech_status}).")
         
     def start(self):
         """Start the Jarvis AI system."""
@@ -76,6 +78,11 @@ class JarvisCore:
         
     def listen_and_respond(self):
         """Listen for voice input and respond with voice output."""
+        # Check if voice recognition is available
+        if not getattr(self.voice_recognizer, 'initialized', False):
+            print("Voice recognition not available. Please install required dependencies.")
+            return False
+            
         # Listen for input
         user_input = self.voice_recognizer.listen()
         if user_input:

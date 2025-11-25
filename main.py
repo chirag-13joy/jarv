@@ -25,7 +25,19 @@ def main():
         jarvis.start()
         
         # Welcome message
-        welcome_msg = "Jarvis AI system is now operational. You can type your messages or say 'jarvis' followed by your command."
+        welcome_msg = "Jarvis AI system is now operational. You can type your messages."
+        
+        # Check if voice features are available
+        voice_available = jarvis.voice_recognizer.initialized if hasattr(jarvis.voice_recognizer, 'initialized') else False
+        speech_available = jarvis.speech_synthesizer.initialized if hasattr(jarvis.speech_synthesizer, 'initialized') else False
+        
+        if voice_available and speech_available:
+            welcome_msg += " You can also use voice input by selecting (V)oice mode."
+        elif speech_available:
+            welcome_msg += " Text responses will be spoken aloud."
+        else:
+            welcome_msg += " Voice features require additional system dependencies."
+            
         print(welcome_msg)
         jarvis.speech_synthesizer.speak(welcome_msg)
         
@@ -33,15 +45,21 @@ def main():
         while jarvis.is_running:
             try:
                 # Option for voice input
-                mode = input("\nSelect input mode - (T)ext or (V)oice, or (Q)uit: ").strip().lower()
+                if voice_available:
+                    mode = input("\nSelect input mode - (T)ext or (V)oice, or (Q)uit: ").strip().lower()
+                else:
+                    mode = 't'  # Default to text mode if voice not available
+                    print("\nText mode selected (voice features not available)")
                 
                 if mode == 'q':
                     break
-                elif mode == 'v':
+                elif mode == 'v' and voice_available:
                     # Voice mode
                     print("Listening... (say 'jarvis' followed by your command)")
-                    jarvis.voice_recognizer.listen_for_wake_word("jarvis")
-                    jarvis.listen_and_respond()
+                    if jarvis.voice_recognizer.listen_for_wake_word("jarvis"):
+                        jarvis.listen_and_respond()
+                    else:
+                        print("Wake word not detected or voice input failed.")
                 else:
                     # Text mode (default)
                     user_input = input("You: ")
