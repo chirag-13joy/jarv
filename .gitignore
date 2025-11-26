@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+jarvis_env/
+venv/
+ENV/
+env/
+
+# Audio files
+*.mp3
+*.wav
+temp_voice.mp3
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Sensitive
+push_to_git.ps1
+GIT_PUSH_INSTRUCTIONS.md
