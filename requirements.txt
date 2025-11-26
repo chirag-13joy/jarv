@@ -7,4 +7,3 @@ google-generativeai
 pyaudio
 gTTS
 playsound==1.2.2
-Flask

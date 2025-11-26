@@ -31,61 +31,10 @@ A fully functional voice assistant inspired by Jarvis, powered by Google Gemini 
       $env:GEMINI_API_KEY="your_api_key_here"
       ```
 
-3.  **Run Voice Assistant**:
+3.  **Run**:
     ```bash
     python voice_assistant.py
     ```
-
-4.  **Run Web Interface** (Optional):
-    ```bash
-    python web_server.py
-    ```
-    Then open your browser to `http://localhost:5000`
-
-## Web Interface
-
-The web interface provides:
-- **Speak Button**: Trigger voice listening
-- **Mute Button**: Toggle voice output on/off
-- **Example Commands**: Click any example to test it!
-- **Modern UI**: Beautiful glassmorphism design
-
-### Features
-- ✅ Real-time status monitoring
-- ✅ Interactive example commands (click to test)
-- ✅ Backend API integration
-- ✅ Responsive design
-
-## Deployment & Sharing
-
-### Run Locally
-```bash
-python web_server.py
-```
-Then open: `http://localhost:5000`
-
-### Share with Friends (Same Network)
-1. Find your IP address:
-   ```powershell
-   ipconfig
-   ```
-   Look for "IPv4 Address" (e.g., 192.168.1.100)
-
-2. Run the server:
-   ```bash
-   python web_server.py
-   ```
-
-3. Share this URL with friends on the same WiFi:
-   ```
-   http://YOUR_IP:5000
-   ```
-   Example: `http://192.168.1.100:5000`
-
-### Deploy Online (Free Options)
-- **Render**: https://render.com (Free tier available)
-- **Railway**: https://railway.app (Free tier available)
-- **PythonAnywhere**: https://www.pythonanywhere.com (Free tier)
 
 ## Current Implementation Status
 
